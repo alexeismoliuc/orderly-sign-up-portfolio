@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5e5;
+}
+.container{
+    position: relative;
+    width: 428px;
+    height: 926px;
+}
+.round-item-1{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#FFA500, #FFFF00) 50%;
+    overflow: hidden;
+    float: right;
+    transform: translateY(-106px);
+    position: absolute;
+    top: -10px;
+    right: -30px;
+    border-radius: 50%;
+    z-index: -5;
+    /* position: fixed; */
+}
+.title{
+    text-align: center;
+    margin-top: 75px;
+    color: #008000;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: 2px -1px 20px #ebeb8f;
+    margin-bottom: 87px;
+}
+.inputs{
+    margin-left: 64px;
+    margin-right: 64px;
+    z-index: 1;
+}
+.input{
+    background-color: #e5e5e5;
+    padding: 10px;
+    width: 290px;
+    height: 35px;
+    box-shadow: 3px 2px 5px #565454;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+}
+::placeholder {
+    color: #CAA4A4;
+}
+.round-item-2{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#FFA500, #FFFF00) 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translate(-87px, -250px);
+    z-index: -15;
+}
+.lines__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 29px;
+
+}
+.sign-btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-btn{
+    cursor: pointer;
+    background-color: #EF0000;
+    border: none;
+    width: 120px;
+    height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #87CEEB;
+    text-align: center;
+    box-shadow: 3px 3px 2px #EF0000;
+    margin-bottom: 30px;
+}
+.lines-or{
+    width: 264px;
+    height: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    background-color: #333;
+    margin-right: 10px;
+}
+.line:last-child{
+    margin-left: 10px;
+}
+.or{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.social__btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.facebook{
+    cursor: pointer;
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color: #87CEEB;
+    border: none;
+    box-shadow: 3px 2px 5px #565454;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.fb-icon{
+    position: absolute;
+    left: 3px;
+}
+.gmail{
+    cursor: pointer;
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color: #FFA500;
+    border: none;
+    box-shadow: 3px 2px 5px #565454;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.gm-icon{
+    position: absolute;
+    left: 3px;
+    margin-left: 4px;
+}
+.customer__sign{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.customer{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0000FF;
+}
+.customer:hover{
+    text-decoration: underline;
+}
+.round-item-3{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#FFA500, #FFFF00) 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    
+    z-index: -5;
+    transform: translateX(376px);
+
+}
